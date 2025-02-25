@@ -1,0 +1,27 @@
+# App framework
+streamlit==1.27.0
+
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+
+# NLP libraries
+spacy==3.5.3
+transformers==4.30.2
+sentence-transformers==2.2.2
+scikit-learn==1.2.2
+
+# Feed parsing
+feedparser==6.0.10
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Visualization
+plotly==5.15.0
+networkx==3.1
+
+# Other utilities
+pytz==2023.3
+
+# Download spaCy model
+# python -m spacy download en_core_web_sm
