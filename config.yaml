@@ -1,0 +1,40 @@
+# News Monitor Configuration
+
+# Default RSS feeds to monitor
+default_feeds:
+  - https://news.google.com/rss/search?q=technology
+  - https://news.google.com/rss/search?q=politics
+  - https://news.google.com/rss/search?q=science
+  - https://news.google.com/rss/search?q=health
+  - https://news.google.com/rss/search?q=business
+  - https://news.google.com/rss/search?q=environment
+  - https://news.google.com/rss/search?q=world+news
+  - https://news.google.com/rss/search?q=education
+
+# Analysis parameters
+analysis:
+  # Minimum co-occurrence count to consider terms related
+  min_cooccurrence: 2
+  
+  # Maximum number of top terms to track
+  max_terms: 1000
+  
+  # Threshold for surprising connections
+  surprise_threshold: 1.0
+  
+  # Threshold for narrative shifts
+  shift_threshold: 0.2
+  
+  # Threshold for blind spots
+  blindspot_threshold: 0.4
+
+# UI settings
+ui:
+  # Default time range (hours)
+  default_time_range: 24
+  
+  # Default update frequency (minutes)
+  default_update_frequency: 15
+  
+  # Maximum terms to show in visualizations
+  max_viz_terms: 50
